@@ -1,2 +1,2 @@
 # infra
-# test
+# CI/CD
