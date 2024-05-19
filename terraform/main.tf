@@ -7,7 +7,7 @@ module "network" {
 }
 
 module "fargate" {
-  source = "./fargate"
+  source = "./fargate.tf"
   vpc_id = module.network.vpc_id
   public_subnet_id = module.network.public_subnet_id
   private_subnet_id = module.network.private_subnet_id
