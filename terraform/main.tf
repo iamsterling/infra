@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "network" {
-  source = "./network"
+  source = "./network.tf"
 }
 
 module "fargate" {
