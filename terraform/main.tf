@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "network" {
-  source = "./network.tf"
+  source = "."
 }
 
 //  module "fargate" {
@@ -12,3 +12,6 @@ module "network" {
 //    public_subnet_id = module.network.public_subnet_id
 //    private_subnet_id = module.network.private_subnet_id
 //  }
+
+
+
